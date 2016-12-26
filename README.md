@@ -7,3 +7,8 @@ Como ponerlo en funcionamiento:
 compile fileTree(dir: 'libs', include: ['*.jar'])
 
 3. Copiar el codigo de MainActivity y clienteBD modificando el valor de las variables para conectarte al servidor de tu propia bd
+
+
+POSIBLES ERRORES:
+EACCES: pueden faltar permisos
+EEHOSTUNREACH: no es capaz de establecer conexion tcp/ip. Puede ser debido a problemas de internet(Posible solucion: hacer ping a la ip)
