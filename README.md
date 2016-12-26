@@ -10,5 +10,7 @@ compile fileTree(dir: 'libs', include: ['*.jar'])
 
 
 POSIBLES ERRORES:
+
 EACCES: pueden faltar permisos
+
 EEHOSTUNREACH: no es capaz de establecer conexion tcp/ip. Puede ser debido a problemas de internet(Posible solucion: hacer ping a la ip)
