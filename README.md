@@ -11,6 +11,6 @@ compile fileTree(dir: 'libs', include: ['*.jar'])
 
 POSIBLES ERRORES:
 
-EACCES: pueden faltar permisos(Se necesitan los permisos WRITE_INTERNAL_STORAGE e INTERNET)
+EACCES: pueden faltar permisos(Se necesitan los permisos WRITE_EXTERNAL_STORAGE e INTERNET)
 
 EEHOSTUNREACH: no es capaz de establecer conexion tcp/ip. Puede ser debido a problemas de conexion con la db(Posible solucion: hacer ping a la ip)
